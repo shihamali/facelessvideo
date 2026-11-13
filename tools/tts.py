@@ -6,12 +6,23 @@ model_dir, beats_path, out_wav, out_json, out_srt = sys.argv[1:6]
 VOICE, SPEED = "am_michael", 0.88
 GAP_BEAT, GAP_SCENE, LEAD = 0.55, 1.2, 0.6
 
+# Spellings the voice model reads more reliably. Applied when a beat has no "say" override.
+PRONOUNCE = {"FTT": "F T T", "FTX": "F T X", "Bankman-Fried": "Bankman-Freed", "Alameda": "Alla-may-da", "Binance": "Bye-nance"}
+
+def spoken(b):
+    if "say" in b:
+        return b["say"]
+    t = b["text"]
+    for a, r in PRONOUNCE.items():
+        t = t.replace(a, r)
+    return t
+
 k = Kokoro(f"{model_dir}/kokoro-v1.0.onnx", f"{model_dir}/voices-v1.0.bin")
 beats = json.load(open(beats_path))
 chunks, timings, t, sr = [], [], LEAD, 24000
 chunks.append(np.zeros(int(LEAD * sr), dtype=np.float32))
 for i, b in enumerate(beats):
-    samples, sr = k.create(b.get("say", b["text"]), voice=VOICE, speed=SPEED, lang="en-us")
+    samples, sr = k.create(spoken(b), voice=VOICE, speed=SPEED, lang="en-us")
     samples = np.asarray(samples, dtype=np.float32)
     dur = len(samples) / sr
     timings.append({"scene": b["scene"], "text": b["text"], "start": round(t, 3), "end": round(t + dur, 3)})

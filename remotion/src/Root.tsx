@@ -3,12 +3,14 @@ import { Composition, Still } from "remotion";
 import timings01 from "./data/timings-01.json";
 import timings02 from "./data/timings-02.json";
 import timings03 from "./data/timings-03.json";
+import timings04 from "./data/timings-04.json";
 import { FPS, makeVideo, totalFrames } from "./timeline";
 import { Figured, FloorPlan, Hook, HundredMillion, LossLeader, Markup, Threat } from "./scenesA";
 import { HotDogMath, Kirkland, Limits, Membership, Outro, Payoff, Reframe, Sku, Supplier } from "./scenesB";
 import * as V2 from "./v2scenes";
 import * as V3 from "./v3scenes";
-import { Thumb01, Thumb02, Thumb03 } from "./thumbs";
+import * as V4 from "./v4scenes";
+import { Thumb01, Thumb02, Thumb03, Thumb04 } from "./thumbs";
 
 const CostcoHotDog = makeVideo(
   timings01,
@@ -76,15 +78,36 @@ const DollarStores = makeVideo(
   "narration-03.wav",
 );
 
+const FtxCollapse = makeVideo(
+  timings04,
+  {
+    hook: V4.Hook,
+    rise: V4.Rise,
+    exchange: V4.Exchange,
+    alameda: V4.Alameda,
+    token: V4.TokenScene,
+    collapse: V4.Collapse,
+    trial: V4.Trial,
+    money: V4.Money,
+    lessons: V4.Lessons,
+    you: V4.You,
+    payoff: V4.Payoff,
+    outro: V4.Outro,
+  },
+  "narration-04.wav",
+);
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition id="CostcoHotDog" component={CostcoHotDog} durationInFrames={totalFrames(timings01)} fps={FPS} width={1920} height={1080} />
       <Composition id="AirlinesAreBanks" component={AirlinesAreBanks} durationInFrames={totalFrames(timings02)} fps={FPS} width={1920} height={1080} />
       <Composition id="DollarStores" component={DollarStores} durationInFrames={totalFrames(timings03)} fps={FPS} width={1920} height={1080} />
+      <Composition id="FtxCollapse" component={FtxCollapse} durationInFrames={totalFrames(timings04)} fps={FPS} width={1920} height={1080} />
       <Still id="Thumb01" component={Thumb01} width={1280} height={720} />
       <Still id="Thumb02" component={Thumb02} width={1280} height={720} />
       <Still id="Thumb03" component={Thumb03} width={1280} height={720} />
+      <Still id="Thumb04" component={Thumb04} width={1280} height={720} />
     </>
   );
 };

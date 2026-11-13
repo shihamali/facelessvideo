@@ -1,0 +1,228 @@
+1
+00:00:00,600 --> 00:00:15,427
+On the second of November 2022, a crypto exchange called FTX was one of the most admired companies in finance. Investors had valued it at thirty-two billion dollars.
+
+2
+00:00:15,977 --> 00:00:18,451
+Nine days later, it was bankrupt.
+
+3
+00:00:19,001 --> 00:00:29,199
+About eight billion dollars of customer money was missing, prosecutors said, and its founder would later be sentenced to twenty-five years in prison.
+
+4
+00:00:29,749 --> 00:00:39,050
+The strange part is how simple the failure was. Strip away the crypto, and this is one of the oldest stories in finance.
+
+5
+00:00:40,250 --> 00:00:55,930
+FTX was founded in 2019 by Sam Bankman-Fried, a former Wall Street trader in his twenties. It was an exchange: a place where customers could deposit money and trade cryptocurrencies.
+
+6
+00:00:56,480 --> 00:01:06,123
+He already ran a second company, a trading firm called Alameda Research. Remember that name. The two were supposed to be separate.
+
+7
+00:01:06,673 --> 00:01:17,019
+FTX grew at astonishing speed. Within three years it had more than a million users, and some of the best-known investors in the world.
+
+8
+00:01:17,569 --> 00:01:31,009
+It bought the naming rights to the Miami Heat's arena, in a deal worth a hundred and thirty-five million dollars. It ran a Super Bowl advertisement. Famous athletes endorsed it.
+
+9
+00:01:31,559 --> 00:01:45,191
+Its founder cultivated an image, too. Messy hair, shorts, a modest car. He talked about giving his fortune away, and he testified before Congress on how crypto should be regulated.
+
+10
+00:01:45,741 --> 00:01:55,576
+In January 2022, investors put in another four hundred million dollars, at a valuation of thirty-two billion.
+
+11
+00:01:56,776 --> 00:02:05,587
+To see what went wrong, you only need to understand one rule. An exchange holds its customers' money. It does not own it.
+
+12
+00:02:06,137 --> 00:02:15,438
+If you deposit a thousand dollars, the exchange is supposed to keep a thousand dollars for you, ready to hand back whenever you ask.
+
+13
+00:02:15,988 --> 00:02:28,148
+It makes its living from a small fee on every trade. That is a good business. FTX reportedly earned around a billion dollars in revenue in 2021.
+
+14
+00:02:28,698 --> 00:02:34,159
+So the exchange did not need to gamble. The trouble was the company next door.
+
+15
+00:02:35,359 --> 00:02:43,359
+Alameda Research was a trading firm. It made large, risky bets on crypto, often with borrowed money.
+
+16
+00:02:43,909 --> 00:02:50,608
+And inside FTX's software, Alameda's account was not like anyone else's.
+
+17
+00:02:51,158 --> 00:03:09,483
+FTX's co-founder, Gary Wang, later testified that he had written special privileges for it into the code. Alameda could keep trading with a negative balance, and it had a line of credit that was eventually raised to sixty-five billion dollars.
+
+18
+00:03:10,033 --> 00:03:17,585
+Ordinary customers' credit lines, he said, were in the millions. And none of this was disclosed to the public.
+
+19
+00:03:18,135 --> 00:03:28,525
+In effect, Alameda could take money out of the exchange almost without limit. And the money it was taking belonged to FTX's customers.
+
+20
+00:03:29,075 --> 00:03:39,379
+According to the evidence at trial, it went on trading bets, on venture investments, on property in the Bahamas, and on political donations.
+
+21
+00:03:40,579 --> 00:03:46,893
+How could a hole that size stay hidden? Part of the answer is a token called FTT.
+
+22
+00:03:47,443 --> 00:03:58,686
+FTT was a digital coin that FTX itself had created. It had a market price, because a small amount of it changed hands every day.
+
+23
+00:03:59,236 --> 00:04:10,543
+Alameda held an enormous quantity of it, and counted it on its books at that market price. On paper, it looked like billions of dollars of assets.
+
+24
+00:04:11,093 --> 00:04:20,778
+But a price set by a trickle of trading says nothing about what you would get if you sold a mountain. Try to sell it all, and the price collapses.
+
+25
+00:04:21,328 --> 00:04:32,400
+So one company's wealth was, in large part, a coin invented by its sister company. It was a balance sheet holding itself up by its own bootstraps.
+
+26
+00:04:33,600 --> 00:04:43,883
+On the second of November, the news site CoinDesk published a report on Alameda's balance sheet. It showed how much of it was FTT.
+
+27
+00:04:44,433 --> 00:04:57,830
+Four days later, the head of Binance, FTX's biggest rival, announced that his company would sell its own holdings of the token, worth more than five hundred million dollars.
+
+28
+00:04:58,380 --> 00:05:07,383
+The price of FTT began to fall. And customers of FTX did the rational thing. They asked for their money back.
+
+29
+00:05:07,933 --> 00:05:18,023
+This is a bank run, and it is the one test an honest exchange can always pass. If the money is there, you simply pay everyone out.
+
+30
+00:05:18,573 --> 00:05:24,291
+The money was not there. Within days, FTX stopped processing withdrawals.
+
+31
+00:05:24,841 --> 00:05:32,947
+On the eighth, Binance announced that it would buy its rival. One day later, after looking at the books, it walked away.
+
+32
+00:05:33,497 --> 00:05:39,919
+On the eleventh of November, FTX filed for bankruptcy, and its founder resigned.
+
+33
+00:05:40,469 --> 00:05:52,309
+The man brought in to clean up had overseen the bankruptcy of Enron. He wrote that he had never, in his career, seen such a complete failure of corporate controls.
+
+34
+00:05:53,509 --> 00:05:58,223
+Sam Bankman-Fried was arrested in the Bahamas a month later.
+
+35
+00:05:58,773 --> 00:06:15,904
+At his trial in New York, in the autumn of 2023, three of his closest colleagues testified against him, including the co-founder of FTX and the chief executive of Alameda. All three had pleaded guilty.
+
+36
+00:06:16,454 --> 00:06:23,345
+He took the stand himself, and said he had made mistakes, but had not set out to defraud anyone.
+
+37
+00:06:23,895 --> 00:06:35,265
+The jury convicted him on all seven counts, after a few hours of deliberation. In March 2024, he was sentenced to twenty-five years.
+
+38
+00:06:35,815 --> 00:06:42,066
+In June 2026, an appeals court unanimously upheld the conviction.
+
+39
+00:06:43,266 --> 00:06:47,021
+And the customers? Here the story takes an odd turn.
+
+40
+00:06:47,571 --> 00:06:58,792
+The bankruptcy team spent two years recovering assets. Some of the investments made with customer money turned out to be valuable, and crypto prices recovered.
+
+41
+00:06:59,342 --> 00:07:11,417
+Under the plan approved in 2024, most customers were set to get back the dollar value of their accounts as of the day of the bankruptcy, plus interest.
+
+42
+00:07:11,967 --> 00:07:28,927
+But that was the value at the bottom of the market. A customer who held Bitcoin in November 2022 was paid for it at roughly seventeen thousand dollars, and watched it trade many times higher by the time the money arrived.
+
+43
+00:07:30,127 --> 00:07:42,585
+So why did nobody see it? Some of the most sophisticated investors in the world had put money in. One of them, Sequoia Capital, wrote its entire stake down to zero.
+
+44
+00:07:43,135 --> 00:07:58,623
+Part of the answer is that nobody was checking. FTX was run from the Bahamas, with little outside oversight. Its new chief executive reported that many of its companies had never held a board meeting.
+
+45
+00:07:59,173 --> 00:08:09,200
+Part of it is that fast growth looks like proof. If a company is worth more every six months, asking awkward questions feels like missing out.
+
+46
+00:08:09,750 --> 00:08:16,897
+And part of it is the image. A founder who seems indifferent to money is easy to trust with yours.
+
+47
+00:08:17,447 --> 00:08:28,860
+But the real warning sign was structural, and it was public. The same person controlled an exchange that held customer money, and a trading firm that needed money.
+
+48
+00:08:29,410 --> 00:08:37,623
+That is a conflict of interest so basic that traditional finance has spent a century building walls against it.
+
+49
+00:08:38,823 --> 00:08:41,703
+The lessons are not really about crypto.
+
+50
+00:08:42,253 --> 00:08:51,171
+First: ask where your money actually sits, and who else can touch it. An account balance on a screen is a promise, not a vault.
+
+51
+00:08:51,721 --> 00:08:59,507
+Second: an asset is only worth what it would fetch if you had to sell it. A price on paper is not the same thing.
+
+52
+00:09:00,057 --> 00:09:10,255
+Third: when a company's owner also runs its biggest customer, its lender, or its trading partner, someone should be asking hard questions.
+
+53
+00:09:11,455 --> 00:09:20,393
+FTX did not fail because crypto is complicated. It failed because customer money was treated as the company's own.
+
+54
+00:09:20,943 --> 00:09:29,498
+Thirty-two billion dollars of value turned out to rest on one thing: people not asking for their money back all at once.
+
+55
+00:09:30,698 --> 00:09:41,301
+Next: a salary of a hundred thousand dollars used to mean you had made it. Today, many people who earn it feel broke. The numbers explain why.
+
+56
+00:09:41,851 --> 00:09:43,557
+That story is next.
+
+57
+00:09:44,107 --> 00:09:48,438
+And if you want to keep seeing where the money really goes, subscribe.
+

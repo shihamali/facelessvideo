@@ -1,0 +1,347 @@
+{
+ "total": 588.438,
+ "beats": [
+  {
+   "scene": "hook",
+   "text": "On the second of November 2022, a crypto exchange called FTX was one of the most admired companies in finance. Investors had valued it at thirty-two billion dollars.",
+   "start": 0.6,
+   "end": 15.427
+  },
+  {
+   "scene": "hook",
+   "text": "Nine days later, it was bankrupt.",
+   "start": 15.977,
+   "end": 18.451
+  },
+  {
+   "scene": "hook",
+   "text": "About eight billion dollars of customer money was missing, prosecutors said, and its founder would later be sentenced to twenty-five years in prison.",
+   "start": 19.001,
+   "end": 29.199
+  },
+  {
+   "scene": "hook",
+   "text": "The strange part is how simple the failure was. Strip away the crypto, and this is one of the oldest stories in finance.",
+   "start": 29.749,
+   "end": 39.05
+  },
+  {
+   "scene": "rise",
+   "text": "FTX was founded in 2019 by Sam Bankman-Fried, a former Wall Street trader in his twenties. It was an exchange: a place where customers could deposit money and trade cryptocurrencies.",
+   "start": 40.25,
+   "end": 55.93
+  },
+  {
+   "scene": "rise",
+   "text": "He already ran a second company, a trading firm called Alameda Research. Remember that name. The two were supposed to be separate.",
+   "start": 56.48,
+   "end": 66.123
+  },
+  {
+   "scene": "rise",
+   "text": "FTX grew at astonishing speed. Within three years it had more than a million users, and some of the best-known investors in the world.",
+   "start": 66.673,
+   "end": 77.019
+  },
+  {
+   "scene": "rise",
+   "text": "It bought the naming rights to the Miami Heat's arena, in a deal worth a hundred and thirty-five million dollars. It ran a Super Bowl advertisement. Famous athletes endorsed it.",
+   "start": 77.569,
+   "end": 91.009
+  },
+  {
+   "scene": "rise",
+   "text": "Its founder cultivated an image, too. Messy hair, shorts, a modest car. He talked about giving his fortune away, and he testified before Congress on how crypto should be regulated.",
+   "start": 91.559,
+   "end": 105.191
+  },
+  {
+   "scene": "rise",
+   "text": "In January 2022, investors put in another four hundred million dollars, at a valuation of thirty-two billion.",
+   "start": 105.741,
+   "end": 115.576
+  },
+  {
+   "scene": "exchange",
+   "text": "To see what went wrong, you only need to understand one rule. An exchange holds its customers' money. It does not own it.",
+   "start": 116.776,
+   "end": 125.587
+  },
+  {
+   "scene": "exchange",
+   "text": "If you deposit a thousand dollars, the exchange is supposed to keep a thousand dollars for you, ready to hand back whenever you ask.",
+   "start": 126.137,
+   "end": 135.438
+  },
+  {
+   "scene": "exchange",
+   "text": "It makes its living from a small fee on every trade. That is a good business. FTX reportedly earned around a billion dollars in revenue in 2021.",
+   "start": 135.988,
+   "end": 148.148
+  },
+  {
+   "scene": "exchange",
+   "text": "So the exchange did not need to gamble. The trouble was the company next door.",
+   "start": 148.698,
+   "end": 154.159
+  },
+  {
+   "scene": "alameda",
+   "text": "Alameda Research was a trading firm. It made large, risky bets on crypto, often with borrowed money.",
+   "start": 155.359,
+   "end": 163.359
+  },
+  {
+   "scene": "alameda",
+   "text": "And inside FTX's software, Alameda's account was not like anyone else's.",
+   "start": 163.909,
+   "end": 170.608
+  },
+  {
+   "scene": "alameda",
+   "text": "FTX's co-founder, Gary Wang, later testified that he had written special privileges for it into the code. Alameda could keep trading with a negative balance, and it had a line of credit that was eventually raised to sixty-five billion dollars.",
+   "start": 171.158,
+   "end": 189.483
+  },
+  {
+   "scene": "alameda",
+   "text": "Ordinary customers' credit lines, he said, were in the millions. And none of this was disclosed to the public.",
+   "start": 190.033,
+   "end": 197.585
+  },
+  {
+   "scene": "alameda",
+   "text": "In effect, Alameda could take money out of the exchange almost without limit. And the money it was taking belonged to FTX's customers.",
+   "start": 198.135,
+   "end": 208.525
+  },
+  {
+   "scene": "alameda",
+   "text": "According to the evidence at trial, it went on trading bets, on venture investments, on property in the Bahamas, and on political donations.",
+   "start": 209.075,
+   "end": 219.379
+  },
+  {
+   "scene": "token",
+   "text": "How could a hole that size stay hidden? Part of the answer is a token called FTT.",
+   "start": 220.579,
+   "end": 226.893
+  },
+  {
+   "scene": "token",
+   "text": "FTT was a digital coin that FTX itself had created. It had a market price, because a small amount of it changed hands every day.",
+   "start": 227.443,
+   "end": 238.686
+  },
+  {
+   "scene": "token",
+   "text": "Alameda held an enormous quantity of it, and counted it on its books at that market price. On paper, it looked like billions of dollars of assets.",
+   "start": 239.236,
+   "end": 250.543
+  },
+  {
+   "scene": "token",
+   "text": "But a price set by a trickle of trading says nothing about what you would get if you sold a mountain. Try to sell it all, and the price collapses.",
+   "start": 251.093,
+   "end": 260.778
+  },
+  {
+   "scene": "token",
+   "text": "So one company's wealth was, in large part, a coin invented by its sister company. It was a balance sheet holding itself up by its own bootstraps.",
+   "start": 261.328,
+   "end": 272.4
+  },
+  {
+   "scene": "collapse",
+   "text": "On the second of November, the news site CoinDesk published a report on Alameda's balance sheet. It showed how much of it was FTT.",
+   "start": 273.6,
+   "end": 283.883
+  },
+  {
+   "scene": "collapse",
+   "text": "Four days later, the head of Binance, FTX's biggest rival, announced that his company would sell its own holdings of the token, worth more than five hundred million dollars.",
+   "start": 284.433,
+   "end": 297.83
+  },
+  {
+   "scene": "collapse",
+   "text": "The price of FTT began to fall. And customers of FTX did the rational thing. They asked for their money back.",
+   "start": 298.38,
+   "end": 307.383
+  },
+  {
+   "scene": "collapse",
+   "text": "This is a bank run, and it is the one test an honest exchange can always pass. If the money is there, you simply pay everyone out.",
+   "start": 307.933,
+   "end": 318.023
+  },
+  {
+   "scene": "collapse",
+   "text": "The money was not there. Within days, FTX stopped processing withdrawals.",
+   "start": 318.573,
+   "end": 324.291
+  },
+  {
+   "scene": "collapse",
+   "text": "On the eighth, Binance announced that it would buy its rival. One day later, after looking at the books, it walked away.",
+   "start": 324.841,
+   "end": 332.947
+  },
+  {
+   "scene": "collapse",
+   "text": "On the eleventh of November, FTX filed for bankruptcy, and its founder resigned.",
+   "start": 333.497,
+   "end": 339.919
+  },
+  {
+   "scene": "collapse",
+   "text": "The man brought in to clean up had overseen the bankruptcy of Enron. He wrote that he had never, in his career, seen such a complete failure of corporate controls.",
+   "start": 340.469,
+   "end": 352.309
+  },
+  {
+   "scene": "trial",
+   "text": "Sam Bankman-Fried was arrested in the Bahamas a month later.",
+   "start": 353.509,
+   "end": 358.223
+  },
+  {
+   "scene": "trial",
+   "text": "At his trial in New York, in the autumn of 2023, three of his closest colleagues testified against him, including the co-founder of FTX and the chief executive of Alameda. All three had pleaded guilty.",
+   "start": 358.773,
+   "end": 375.904
+  },
+  {
+   "scene": "trial",
+   "text": "He took the stand himself, and said he had made mistakes, but had not set out to defraud anyone.",
+   "start": 376.454,
+   "end": 383.345
+  },
+  {
+   "scene": "trial",
+   "text": "The jury convicted him on all seven counts, after a few hours of deliberation. In March 2024, he was sentenced to twenty-five years.",
+   "start": 383.895,
+   "end": 395.265
+  },
+  {
+   "scene": "trial",
+   "text": "In June 2026, an appeals court unanimously upheld the conviction.",
+   "start": 395.815,
+   "end": 402.066
+  },
+  {
+   "scene": "money",
+   "text": "And the customers? Here the story takes an odd turn.",
+   "start": 403.266,
+   "end": 407.021
+  },
+  {
+   "scene": "money",
+   "text": "The bankruptcy team spent two years recovering assets. Some of the investments made with customer money turned out to be valuable, and crypto prices recovered.",
+   "start": 407.571,
+   "end": 418.792
+  },
+  {
+   "scene": "money",
+   "text": "Under the plan approved in 2024, most customers were set to get back the dollar value of their accounts as of the day of the bankruptcy, plus interest.",
+   "start": 419.342,
+   "end": 431.417
+  },
+  {
+   "scene": "money",
+   "text": "But that was the value at the bottom of the market. A customer who held Bitcoin in November 2022 was paid for it at roughly seventeen thousand dollars, and watched it trade many times higher by the time the money arrived.",
+   "start": 431.967,
+   "end": 448.927
+  },
+  {
+   "scene": "lessons",
+   "text": "So why did nobody see it? Some of the most sophisticated investors in the world had put money in. One of them, Sequoia Capital, wrote its entire stake down to zero.",
+   "start": 450.127,
+   "end": 462.585
+  },
+  {
+   "scene": "lessons",
+   "text": "Part of the answer is that nobody was checking. FTX was run from the Bahamas, with little outside oversight. Its new chief executive reported that many of its companies had never held a board meeting.",
+   "start": 463.135,
+   "end": 478.623
+  },
+  {
+   "scene": "lessons",
+   "text": "Part of it is that fast growth looks like proof. If a company is worth more every six months, asking awkward questions feels like missing out.",
+   "start": 479.173,
+   "end": 489.2
+  },
+  {
+   "scene": "lessons",
+   "text": "And part of it is the image. A founder who seems indifferent to money is easy to trust with yours.",
+   "start": 489.75,
+   "end": 496.897
+  },
+  {
+   "scene": "lessons",
+   "text": "But the real warning sign was structural, and it was public. The same person controlled an exchange that held customer money, and a trading firm that needed money.",
+   "start": 497.447,
+   "end": 508.86
+  },
+  {
+   "scene": "lessons",
+   "text": "That is a conflict of interest so basic that traditional finance has spent a century building walls against it.",
+   "start": 509.41,
+   "end": 517.623
+  },
+  {
+   "scene": "you",
+   "text": "The lessons are not really about crypto.",
+   "start": 518.823,
+   "end": 521.703
+  },
+  {
+   "scene": "you",
+   "text": "First: ask where your money actually sits, and who else can touch it. An account balance on a screen is a promise, not a vault.",
+   "start": 522.253,
+   "end": 531.171
+  },
+  {
+   "scene": "you",
+   "text": "Second: an asset is only worth what it would fetch if you had to sell it. A price on paper is not the same thing.",
+   "start": 531.721,
+   "end": 539.507
+  },
+  {
+   "scene": "you",
+   "text": "Third: when a company's owner also runs its biggest customer, its lender, or its trading partner, someone should be asking hard questions.",
+   "start": 540.057,
+   "end": 550.255
+  },
+  {
+   "scene": "payoff",
+   "text": "FTX did not fail because crypto is complicated. It failed because customer money was treated as the company's own.",
+   "start": 551.455,
+   "end": 560.393
+  },
+  {
+   "scene": "payoff",
+   "text": "Thirty-two billion dollars of value turned out to rest on one thing: people not asking for their money back all at once.",
+   "start": 560.943,
+   "end": 569.498
+  },
+  {
+   "scene": "outro",
+   "text": "Next: a salary of a hundred thousand dollars used to mean you had made it. Today, many people who earn it feel broke. The numbers explain why.",
+   "start": 570.698,
+   "end": 581.301
+  },
+  {
+   "scene": "outro",
+   "text": "That story is next.",
+   "start": 581.851,
+   "end": 583.557
+  },
+  {
+   "scene": "outro",
+   "text": "And if you want to keep seeing where the money really goes, subscribe.",
+   "start": 584.107,
+   "end": 588.438
+  }
+ ]
+}

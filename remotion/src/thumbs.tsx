@@ -71,3 +71,18 @@ export const Thumb03: React.FC = () => (
     </div>
   </AbsoluteFill>
 );
+
+/** Video 4: FTX collapse */
+export const Thumb04: React.FC = () => (
+  <AbsoluteFill style={{ ...base, background: `radial-gradient(ellipse at 50% 40%, #3A1418 0%, ${C.bg} 72%)` }}>
+    <div style={{ position: "absolute", left: 60, top: 50, ...big, fontSize: 230, color: "#fff", textShadow: "0 8px 0 #000" }}>$32B</div>
+    <svg width={1280} height={720} style={{ position: "absolute" }}>
+      <path d="M90 330 L420 300 L640 340 L760 380 L840 640 L1200 660" fill="none" stroke={C.red} strokeWidth="26" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M1150 610 L1215 662 L1140 700" fill="none" stroke={C.red} strokeWidth="26" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+    <div style={{ position: "absolute", right: 60, top: 60, textAlign: "right" }}>
+      <div style={{ ...big, fontSize: 250, color: C.red, textShadow: "0 8px 0 #000" }}>$0</div>
+      <div style={{ fontSize: 76, fontWeight: 900, letterSpacing: 2, marginTop: 24, background: C.red, padding: "8px 26px", borderRadius: 14, display: "inline-block" }}>IN 9 DAYS</div>
+    </div>
+  </AbsoluteFill>
+);
