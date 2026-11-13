@@ -1,11 +1,12 @@
 import React from "react";
-import { Composition } from "remotion";
+import { Composition, Still } from "remotion";
 import timings01 from "./data/timings-01.json";
 import timings02 from "./data/timings-02.json";
 import { FPS, makeVideo, totalFrames } from "./timeline";
 import { Figured, FloorPlan, Hook, HundredMillion, LossLeader, Markup, Threat } from "./scenesA";
 import { HotDogMath, Kirkland, Limits, Membership, Outro, Payoff, Reframe, Sku, Supplier } from "./scenesB";
 import * as V2 from "./v2scenes";
+import { Thumb01, Thumb02 } from "./thumbs";
 
 const CostcoHotDog = makeVideo(
   timings01,
@@ -58,6 +59,8 @@ export const RemotionRoot: React.FC = () => {
     <>
       <Composition id="CostcoHotDog" component={CostcoHotDog} durationInFrames={totalFrames(timings01)} fps={FPS} width={1920} height={1080} />
       <Composition id="AirlinesAreBanks" component={AirlinesAreBanks} durationInFrames={totalFrames(timings02)} fps={FPS} width={1920} height={1080} />
+      <Still id="Thumb01" component={Thumb01} width={1280} height={720} />
+      <Still id="Thumb02" component={Thumb02} width={1280} height={720} />
     </>
   );
 };

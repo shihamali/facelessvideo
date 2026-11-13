@@ -61,7 +61,7 @@ const PersonIcon: React.FC<{ width: number }> = ({ width }) => (
   </svg>
 );
 
-const Coin: React.FC<{ width: number }> = ({ width }) => (
+export const Coin: React.FC<{ width: number }> = ({ width }) => (
   <svg width={width} viewBox="0 0 300 300">
     <circle cx="150" cy="150" r="140" fill="#FBBF24" />
     <circle cx="150" cy="150" r="112" fill="none" stroke="#B4830C" strokeWidth="8" />
