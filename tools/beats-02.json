@@ -1,0 +1,74 @@
+[
+ {"scene":"hook","text":"In 2020, with planes parked and airports empty, United Airlines needed cash. So it borrowed against the most valuable thing it owned."},
+ {"scene":"hook","text":"Not its aircraft. Not its airport gates. Its frequent flyer program."},
+ {"scene":"hook","text":"That program was appraised at about twenty-two billion dollars. The whole airline, on the stock market, was worth roughly half of that."},
+ {"scene":"hook","text":"So what, exactly, is an airline? The answer has less to do with flying than you would think."},
+
+ {"scene":"origin","text":"It started as a marketing trick. In 1981, American Airlines launched AAdvantage, the first modern frequent flyer program. United followed within days.","say":"It started as a marketing trick. In 1981, American Airlines launched Advantage, the first modern frequent flyer program. United followed within days."},
+ {"scene":"origin","text":"The timing was not an accident. Three years earlier, the United States had deregulated air travel. Airlines could now compete on price, and fares were falling."},
+ {"scene":"origin","text":"Miles were a way to stop customers shopping around. Fly with us often, and we will give you a free flight."},
+ {"scene":"origin","text":"At first, a mile cost the airline almost nothing: a seat that would have flown empty anyway. Then the airlines noticed something. Other companies wanted to hand out miles too."},
+
+ {"scene":"thesale","text":"This is the deal at the heart of the modern airline. A bank wants you to use its credit card instead of someone else's."},
+ {"scene":"thesale","text":"So it buys miles from the airline, in bulk, and gives them to you every time you spend."},
+ {"scene":"thesale","text":"You pay nothing extra at the register. The store pays a small fee on every swipe, and part of that fee funds your miles."},
+ {"scene":"thesale","text":"So follow the money. The store pays the bank. The bank pays the airline. And the airline pays you, in a currency it prints itself."},
+ {"scene":"thesale","text":"Hotels, car rental firms and shopping sites buy miles the same way. But the banks are by far the biggest customers."},
+ {"scene":"thesale","text":"And the airline is paid when the miles are sold, often years before anyone flies on them."},
+
+ {"scene":"whybanks","text":"Why would a bank pay so much? Because airline cardholders are some of the most valuable customers it can have. They tend to spend more, and they stay for years, because their miles are locked into one airline."},
+ {"scene":"whybanks","text":"A cash-back card can be replaced in an afternoon. A mileage balance is a reason to stay."},
+ {"scene":"whybanks","text":"And the airline does the bank's marketing for it, to millions of travelers a year."},
+
+ {"scene":"scale","text":"The sums are enormous. Delta's deal with American Express alone brought in around seven billion dollars in 2024."},
+ {"scene":"scale","text":"Delta has said it expects that figure to reach ten billion dollars a year."},
+ {"scene":"scale","text":"And this is cash that arrives whether the planes are full or empty, and whether fuel is cheap or expensive."},
+ {"scene":"scale","text":"Analysts who value these programs put Delta's at around thirty billion dollars, and American's and United's at around twenty-five billion each. These are estimates. But the lenders in 2020 reached similar conclusions."},
+
+ {"scene":"flying","text":"Compare that with the flying. To sell you a seat, an airline has to buy aircraft, burn fuel, pay crews and rent gates."},
+ {"scene":"flying","text":"It is exposed to weather, strikes, oil prices and recessions. In a good year, it keeps a few cents of every dollar of ticket sales. In a bad one, it loses billions."},
+ {"scene":"flying","text":"The industry's history shows it. Since deregulation, most of the large American carriers have been through bankruptcy at least once."},
+
+ {"scene":"keystroke","text":"Selling miles has almost none of those costs. The airline creates a mile with a keystroke, and sells it for real money, today."},
+ {"scene":"keystroke","text":"The cost only arrives later, if and when you redeem it. And by then, the airline has decided what that mile is worth."},
+
+ {"scene":"currency","text":"That last point matters, because a mile is not money. It is a currency with a single central bank, and that bank is the airline."},
+ {"scene":"currency","text":"Imagine a central bank that could print money, sell it for dollars, and then decide later what its money will buy. That is the position an airline is in."},
+ {"scene":"currency","text":"It decides how many miles exist. It decides what a flight costs in miles. And it can change both whenever it likes."},
+
+ {"scene":"inflation","text":"For years, airlines published fixed charts: a set number of miles for a set trip. The big American carriers have largely dropped them. Prices in miles now move with demand, the way cash fares do."},
+ {"scene":"inflation","text":"The result is a quiet kind of inflation. The miles in your account are the same number as last year. They often buy less."},
+ {"scene":"inflation","text":"And some miles are never spent at all. Some lapse. Many just sit forgotten in accounts. Every one of those was sold for cash, and cost the airline nothing."},
+
+ {"scene":"spend","text":"The programs changed in another way too. You used to earn miles for distance flown. A cheap ticket across the country earned the same as an expensive one."},
+ {"scene":"spend","text":"Starting in 2015, Delta began rewarding dollars spent instead, and its rivals followed."},
+ {"scene":"spend","text":"The message was clear. The airline's best customer is not the person who flies the most. It is the person who spends the most."},
+ {"scene":"spend","text":"And most of that spending now happens on the ground, with a credit card."},
+
+ {"scene":"status","text":"In 2023, Delta pushed the logic further. It announced that elite status would depend only on spending, and it raised the amounts required."},
+ {"scene":"status","text":"Frequent flyers were furious. Within weeks, Delta's chief executive admitted the airline had gone too far, and it softened the changes."},
+ {"scene":"status","text":"But it did not reverse the direction. Status, upgrades and lounge access are increasingly things you earn with a card, not a boarding pass."},
+
+ {"scene":"pitch","text":"Once you see it, you notice it everywhere. The card offer at check-in. The announcement before landing, where the crew reads out a sign-up bonus."},
+ {"scene":"pitch","text":"The flight is doing a second job. It is a sales floor for a financial product, with a captive audience."},
+ {"scene":"pitch","text":"And it explains a puzzle. Economy seats have become tighter, while the perks tied to cards keep getting richer. The airline is investing where the money is."},
+
+ {"scene":"collateral","text":"Which brings us back to 2020. When travel collapsed, the three biggest American carriers all did the same thing. They pledged their loyalty programs to lenders."},
+ {"scene":"collateral","text":"United raised nearly seven billion dollars this way. Delta raised nine billion. American, ten."},
+ {"scene":"collateral","text":"The lenders were not betting on planes. They were betting that people would keep swiping their cards, even with nowhere to fly."},
+ {"scene":"collateral","text":"They were right. Card spending held up far better than ticket sales did."},
+
+ {"scene":"catch","text":"None of this means miles are a scam. Used well, they can still buy a flight that would have cost real money."},
+ {"scene":"catch","text":"But the incentives are worth understanding. The airline profits when you earn miles, and it saves money when you sit on them."},
+ {"scene":"catch","text":"Regulators have noticed. In 2024, the United States Department of Transportation opened an inquiry into the four largest programs, asking, among other things, how they change the value of rewards."},
+ {"scene":"catch","text":"And remember that card rewards are not free. Swipe fees are built into prices, so everyone helps pay for them, including shoppers who never earn a mile."},
+ {"scene":"catch","text":"So the practical lesson is short. Miles are not savings. Earn them when it costs you nothing extra, and spend them before the price changes."},
+
+ {"scene":"payoff","text":"So what is an airline? It is a business that flies planes at a thin margin, so that it can run a currency at a fat one."},
+ {"scene":"payoff","text":"The seat gets you to care about the miles. The miles get the bank to pay."},
+ {"scene":"payoff","text":"That is why a frequent flyer program can be worth more than the fleet that gives it meaning."},
+
+ {"scene":"outro","text":"Airlines hide a bank behind a seat. Dollar stores hide something stranger behind a low price tag."},
+ {"scene":"outro","text":"They make billions by going where no other retailer will. That story is next."},
+ {"scene":"outro","text":"And if you want to keep seeing where the money really goes, subscribe."}
+]
