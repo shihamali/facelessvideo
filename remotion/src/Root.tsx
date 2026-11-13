@@ -10,7 +10,7 @@ import { HotDogMath, Kirkland, Limits, Membership, Outro, Payoff, Reframe, Sku, 
 import * as V2 from "./v2scenes";
 import * as V3 from "./v3scenes";
 import * as V4 from "./v4scenes";
-import { Thumb01, Thumb02, Thumb03, Thumb04 } from "./thumbs";
+import { Avatar, Banner, Thumb01, Thumb02, Thumb03, Thumb04 } from "./thumbs";
 
 const CostcoHotDog = makeVideo(
   timings01,
@@ -108,6 +108,8 @@ export const RemotionRoot: React.FC = () => {
       <Still id="Thumb02" component={Thumb02} width={1280} height={720} />
       <Still id="Thumb03" component={Thumb03} width={1280} height={720} />
       <Still id="Thumb04" component={Thumb04} width={1280} height={720} />
+      <Still id="Avatar" component={Avatar} width={800} height={800} />
+      <Still id="Banner" component={Banner} width={2560} height={1440} />
     </>
   );
 };

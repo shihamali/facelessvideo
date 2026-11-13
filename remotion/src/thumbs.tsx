@@ -86,3 +86,30 @@ export const Thumb04: React.FC = () => (
     </div>
   </AbsoluteFill>
 );
+
+/** Channel profile picture (shown as a circle, so keep content central) */
+export const Avatar: React.FC = () => (
+  <AbsoluteFill style={{ ...base, background: `radial-gradient(circle at 50% 40%, #24365C 0%, ${C.bg} 75%)`, alignItems: "center", justifyContent: "center" }}>
+    <div style={{ fontSize: 520, fontWeight: 900, color: C.yellow, lineHeight: 1, marginTop: -30 }}>$</div>
+    <svg width={800} height={800} style={{ position: "absolute" }}>
+      <path d="M170 560 L330 470 L450 520 L610 330" fill="none" stroke={C.green} strokeWidth="34" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M520 320 L620 318 L628 418" fill="none" stroke={C.green} strokeWidth="34" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  </AbsoluteFill>
+);
+
+/** Channel banner, 2560x1440. Text sits in the central 1546x423 area that shows on every device. */
+export const Banner: React.FC = () => (
+  <AbsoluteFill style={{ ...base, background: `radial-gradient(ellipse at 50% 50%, #1B2A4A 0%, ${C.bg} 70%)`, alignItems: "center", justifyContent: "center" }}>
+    <svg width={2560} height={1440} style={{ position: "absolute", opacity: 0.35 }}>
+      <path d="M0 1100 L400 1000 L800 1060 L1200 900 L1600 960 L2000 760 L2560 620" fill="none" stroke={C.green} strokeWidth="14" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M0 400 L500 430 L900 380 L1400 470 L1900 420 L2560 500" fill="none" stroke={C.line} strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+    <div style={{ width: 1546, textAlign: "center" }}>
+      <div style={{ fontSize: 136, fontWeight: 900, letterSpacing: -5, lineHeight: 1, whiteSpace: "nowrap" }}>
+        Where the <span style={{ color: C.yellow }}>Money</span> Goes
+      </div>
+      <div style={{ fontSize: 56, fontWeight: 600, color: C.mute, marginTop: 36 }}>The real business behind everyday companies</div>
+    </div>
+  </AbsoluteFill>
+);
