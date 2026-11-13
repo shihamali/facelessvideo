@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
-import { C, FONT, HotDog, Plane } from "./lib";
+import { Bottle, C, FONT, HotDog, Plane } from "./lib";
 import { Coin } from "./v2scenes";
 
 const base: React.CSSProperties = { fontFamily: FONT, color: C.text, overflow: "hidden" };
@@ -47,6 +47,27 @@ export const Thumb02: React.FC = () => (
     <div style={{ position: "absolute", right: 60, top: 450, textAlign: "center", width: 520 }}>
       <div style={{ fontSize: 50, fontWeight: 900, letterSpacing: 3, color: C.yellow }}>ITS MILES</div>
       <div style={{ ...big, fontSize: 210, color: C.yellow, textShadow: "0 8px 0 #000" }}>$22B</div>
+    </div>
+  </AbsoluteFill>
+);
+
+/** Video 3: Dollar stores */
+export const Thumb03: React.FC = () => (
+  <AbsoluteFill style={{ ...base, background: `radial-gradient(ellipse at 30% 50%, #3A3210 0%, ${C.bg} 70%)` }}>
+    <div style={{ position: "absolute", left: 60, top: 30, ...big, fontSize: 250, color: C.yellow, textShadow: "0 8px 0 #000" }}>$4</div>
+    <div style={{ position: "absolute", left: 70, top: 290, fontSize: 60, fontWeight: 900, letterSpacing: 3, background: C.green, color: C.bg, padding: "6px 22px", borderRadius: 12 }}>
+      LOOKS CHEAP
+    </div>
+    <div style={{ position: "absolute", left: 150, top: 400 }}>
+      <Bottle width={115} color={C.yellow} />
+    </div>
+    <div style={{ position: "absolute", left: 590, top: 40 }}>
+      <Bottle width={250} color={C.blue} />
+    </div>
+    <div style={{ position: "absolute", right: 30, top: 120, width: 440, textAlign: "center" }}>
+      <div style={{ ...big, fontSize: 150, color: C.red, textShadow: "0 8px 0 #000" }}>+33%</div>
+      <div style={{ fontSize: 66, fontWeight: 900, letterSpacing: 2, marginTop: 20 }}>PER OUNCE</div>
+      <div style={{ fontSize: 50, fontWeight: 900, letterSpacing: 2, marginTop: 40, background: C.red, padding: "8px 20px", borderRadius: 12, display: "inline-block" }}>THE TRICK</div>
     </div>
   </AbsoluteFill>
 );

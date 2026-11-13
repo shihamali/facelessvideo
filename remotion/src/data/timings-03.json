@@ -1,0 +1,341 @@
+{
+ "total": 542.202,
+ "beats": [
+  {
+   "scene": "hook",
+   "text": "There are well over thirty thousand dollar stores in the United States. That is more than every McDonald's and every Walmart in the country, combined.",
+   "start": 0.6,
+   "end": 11.309
+  },
+  {
+   "scene": "hook",
+   "text": "The biggest chain, Dollar General, has more than twenty thousand stores on its own, and it opens hundreds more every year.",
+   "start": 11.859,
+   "end": 20.329
+  },
+  {
+   "scene": "hook",
+   "text": "Almost nothing about these stores looks like a good business. The prices are tiny. The towns are small. The customers do not have much money.",
+   "start": 20.879,
+   "end": 31.375
+  },
+  {
+   "scene": "hook",
+   "text": "And yet Dollar General alone sells more than forty billion dollars of goods a year. Here is how.",
+   "start": 31.925,
+   "end": 38.879
+  },
+  {
+   "scene": "where",
+   "text": "Start with the map. A big-box retailer needs a big population. A single supercenter can require tens of thousands of shoppers within driving distance.",
+   "start": 40.079,
+   "end": 51.279
+  },
+  {
+   "scene": "where",
+   "text": "Dollar General looked at the towns that were too small for that, and saw an opening.",
+   "start": 51.829,
+   "end": 57.291
+  },
+  {
+   "scene": "where",
+   "text": "By the company's own count, about eighty percent of its stores are in communities of twenty thousand people or fewer.",
+   "start": 57.841,
+   "end": 65.606
+  },
+  {
+   "scene": "where",
+   "text": "In many of them, the nearest full supermarket is a long drive away. The dollar store is not the cheapest option. It is the closest one.",
+   "start": 66.156,
+   "end": 76.396
+  },
+  {
+   "scene": "where",
+   "text": "And being closest is a kind of monopoly. If the alternative costs you forty minutes and a gallon of gas, you will pay a little more for the milk.",
+   "start": 76.946,
+   "end": 87.207
+  },
+  {
+   "scene": "box",
+   "text": "The stores themselves are designed to cost almost nothing. A typical one is a plain metal box, a fraction of the size of a supermarket.",
+   "start": 88.407,
+   "end": 98.733
+  },
+  {
+   "scene": "box",
+   "text": "There is no bakery, no deli counter, no pharmacy. Often there are no fresh vegetables at all.",
+   "start": 99.283,
+   "end": 106.344
+  },
+  {
+   "scene": "box",
+   "text": "The land is cheap, because it sits at the edge of a small town. And the building is usually leased, not owned.",
+   "start": 106.894,
+   "end": 114.83
+  },
+  {
+   "scene": "box",
+   "text": "The staffing is thin, too. It is common for a store to run with just one or two people on a shift, who work the register, unload the truck, and stock the shelves.",
+   "start": 115.38,
+   "end": 126.943
+  },
+  {
+   "scene": "box",
+   "text": "Low rent and a tiny payroll mean a store can turn a profit on sales that a supermarket would consider a failure.",
+   "start": 127.493,
+   "end": 135.898
+  },
+  {
+   "scene": "price",
+   "text": "Then there is the price tag. A dollar store's whole promise is in its name: you can afford everything in here.",
+   "start": 137.098,
+   "end": 144.735
+  },
+  {
+   "scene": "price",
+   "text": "And in one sense, that is true. Most items cost just a few dollars. For a household living week to week, a small price today matters more than a good deal over a month.",
+   "start": 145.285,
+   "end": 157.893
+  },
+  {
+   "scene": "price",
+   "text": "But look at what you get for it. The packages are smaller. Sometimes they are sizes made specially for these chains.",
+   "start": 158.443,
+   "end": 166.379
+  },
+  {
+   "scene": "price",
+   "text": "Take a simple example. A large bottle of detergent at a supermarket costs twelve dollars. A small one at a dollar store costs four. The small one feels cheaper. But measured by the ounce, it can cost a third more.",
+   "start": 166.929,
+   "end": 183.271
+  },
+  {
+   "scene": "price",
+   "text": "Comparisons by journalists have found the same pattern on real shelves: lower prices at the register, higher prices per unit.",
+   "start": 183.821,
+   "end": 193.399
+  },
+  {
+   "scene": "price",
+   "text": "It is expensive to be poor. If you cannot spare twelve dollars this week, you buy the four dollar bottle, again and again, and you pay more over the year.",
+   "start": 193.949,
+   "end": 205.085
+  },
+  {
+   "scene": "margins",
+   "text": "What do these stores actually sell? Mostly the basics: food, cleaning products, paper towels, toiletries. At Dollar General, these everyday goods are about four fifths of sales.",
+   "start": 206.285,
+   "end": 219.469
+  },
+  {
+   "scene": "margins",
+   "text": "Those are low-margin products. They are there to bring you in every week.",
+   "start": 220.019,
+   "end": 225.033
+  },
+  {
+   "scene": "margins",
+   "text": "The better profits come from what you pick up on the way: seasonal decorations, toys, homeware, party supplies.",
+   "start": 225.583,
+   "end": 233.775
+  },
+  {
+   "scene": "margins",
+   "text": "And from the store's own brands, which cost the chain less than the famous names.",
+   "start": 234.325,
+   "end": 239.551
+  },
+  {
+   "scene": "machine",
+   "text": "Put it together and you get a machine that can be copied almost anywhere. Small box. Cheap land. Two staff. Basic goods.",
+   "start": 240.751,
+   "end": 249.818
+  },
+  {
+   "scene": "machine",
+   "text": "Because each store costs so little to open, it pays back its investment quickly. So the chain opens another, and another.",
+   "start": 250.368,
+   "end": 259.456
+  },
+  {
+   "scene": "machine",
+   "text": "At its peak, Dollar General was opening around a thousand stores a year. That is nearly three a day.",
+   "start": 260.006,
+   "end": 267.067
+  },
+  {
+   "scene": "machine",
+   "text": "It works in hard times, too. When budgets tighten, shoppers trade down, and the dollar store gains customers.",
+   "start": 267.617,
+   "end": 275.404
+  },
+  {
+   "scene": "dollar",
+   "text": "One thing has changed, though. The dollar itself.",
+   "start": 276.604,
+   "end": 280.081
+  },
+  {
+   "scene": "dollar",
+   "text": "For thirty years, Dollar Tree sold everything for exactly one dollar. In 2021, it raised that to a dollar twenty-five. Today, some of its items cost as much as seven dollars.",
+   "start": 280.631,
+   "end": 295.437
+  },
+  {
+   "scene": "dollar",
+   "text": "Dollar General never had a one dollar rule at all. The name describes a feeling, not a price.",
+   "start": 295.987,
+   "end": 302.941
+  },
+  {
+   "scene": "dollar",
+   "text": "The sign sets what you expect to pay, and most people never check the math.",
+   "start": 303.491,
+   "end": 308.547
+  },
+  {
+   "scene": "town",
+   "text": "So what happens to the town? This is where the story gets contested.",
+   "start": 309.747,
+   "end": 314.697
+  },
+  {
+   "scene": "town",
+   "text": "The chains say they bring affordable basics to places other retailers abandoned. For many communities, that is simply true. Before the dollar store, there was nothing.",
+   "start": 315.247,
+   "end": 327.215
+  },
+  {
+   "scene": "town",
+   "text": "Critics say the stores do not just fill a gap. They widen it. A small-town grocer survives on thin margins, and when a dollar store takes even a slice of its sales, the grocer can fail.",
+   "start": 327.765,
+   "end": 342.399
+  },
+  {
+   "scene": "town",
+   "text": "Then the town has lost its only source of fresh food, and the dollar store is all that is left.",
+   "start": 342.949,
+   "end": 349.691
+  },
+  {
+   "scene": "town",
+   "text": "The Institute for Local Self-Reliance, an advocacy group, has counted at least seventy-five communities that blocked a proposed dollar store since 2019. Some cities now limit how close together the stores can be.",
+   "start": 350.241,
+   "end": 367.051
+  },
+  {
+   "scene": "town",
+   "text": "Whether a dollar store rescues a town or drains it seems to depend on what was there before it arrived.",
+   "start": 367.601,
+   "end": 375.068
+  },
+  {
+   "scene": "cost",
+   "text": "Running that lean has costs, and some of them land on other people.",
+   "start": 376.268,
+   "end": 380.535
+  },
+  {
+   "scene": "cost",
+   "text": "Thin staffing can mean blocked aisles and boxes piled high in stockrooms. Federal safety regulators have fined dollar store chains repeatedly for exactly that.",
+   "start": 381.085,
+   "end": 393.202
+  },
+  {
+   "scene": "cost",
+   "text": "It can also mean price tags do not get updated. Several states have reached settlements with Dollar General after inspectors found that shelf prices and register prices did not match.",
+   "start": 393.752,
+   "end": 407.533
+  },
+  {
+   "scene": "cost",
+   "text": "In Pennsylvania, the attorney general's office said the chain had failed more than forty percent of its pricing accuracy inspections over several years. Dollar General says it corrects errors when they are found.",
+   "start": 408.083,
+   "end": 423.017
+  },
+  {
+   "scene": "cost",
+   "text": "Journalists have also documented robberies at stores with a single worker on shift. That is a risk that falls on the employee.",
+   "start": 423.567,
+   "end": 432.996
+  },
+  {
+   "scene": "limits",
+   "text": "And the model does not always work. In 2015, Dollar Tree bought its rival, Family Dollar, for about nine billion dollars.",
+   "start": 434.196,
+   "end": 444.5
+  },
+  {
+   "scene": "limits",
+   "text": "Ten years later, it sold it for about one billion.",
+   "start": 445.05,
+   "end": 448.463
+  },
+  {
+   "scene": "limits",
+   "text": "Even Dollar General's profit fell by about a third in its 2024 fiscal year, as its customers ran short of money to spend.",
+   "start": 449.013,
+   "end": 459.381
+  },
+  {
+   "scene": "limits",
+   "text": "A business built on customers with no slack is exposed when they have even less.",
+   "start": 459.931,
+   "end": 465.499
+  },
+  {
+   "scene": "you",
+   "text": "None of this means you should never shop there. Some things are a real bargain: greeting cards, party supplies, seasonal goods, and many store brands.",
+   "start": 466.699,
+   "end": 477.793
+  },
+  {
+   "scene": "you",
+   "text": "The lesson is to ignore the big price on the tag and look for the price per ounce, or per sheet, or per load. It is usually printed in small type on the shelf label.",
+   "start": 478.343,
+   "end": 490.247
+  },
+  {
+   "scene": "you",
+   "text": "If the unit price is higher, you are not saving money. You are renting a lower price for a week.",
+   "start": 490.797,
+   "end": 497.495
+  },
+  {
+   "scene": "payoff",
+   "text": "So the genius of the dollar store is not the low price. It is knowing exactly where a low price matters more than a good one.",
+   "start": 498.695,
+   "end": 507.762
+  },
+  {
+   "scene": "payoff",
+   "text": "It goes where there is no competition, builds a store that costs almost nothing, and sells in sizes that feel affordable.",
+   "start": 508.312,
+   "end": 517.208
+  },
+  {
+   "scene": "payoff",
+   "text": "It is a brilliant business. Whether it is a good neighbor is a different question.",
+   "start": 517.758,
+   "end": 523.006
+  },
+  {
+   "scene": "outro",
+   "text": "Dollar stores hide a high price behind a small one. Next, a company that was valued at thirty-two billion dollars, and vanished in about a week.",
+   "start": 524.206,
+   "end": 535.065
+  },
+  {
+   "scene": "outro",
+   "text": "That story is next.",
+   "start": 535.615,
+   "end": 537.321
+  },
+  {
+   "scene": "outro",
+   "text": "And if you want to keep seeing where the money really goes, subscribe.",
+   "start": 537.871,
+   "end": 542.202
+  }
+ ]
+}

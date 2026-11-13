@@ -5,7 +5,7 @@ import { Arrow, C, Center, Count, Headline, Pill, Plane, prog, Reveal, SceneProp
 const mid = (t: number[], e: number[], i: number, f = 0.5) => Math.round(t[i] + (e[i] - t[i]) * f);
 
 /** Centered content that appears at `at` and leaves at `out`. */
-const Phase: React.FC<{ at: number; out?: number; style?: React.CSSProperties; children: React.ReactNode }> = ({
+export const Phase: React.FC<{ at: number; out?: number; style?: React.CSSProperties; children: React.ReactNode }> = ({
   at,
   out,
   style,
@@ -20,7 +20,7 @@ const Phase: React.FC<{ at: number; out?: number; style?: React.CSSProperties; c
 
 /* ---------- Illustrations ---------- */
 
-const CreditCard: React.FC<{ width: number; color?: string }> = ({ width, color = C.blue }) => (
+export const CreditCard: React.FC<{ width: number; color?: string }> = ({ width, color = C.blue }) => (
   <svg width={width} viewBox="0 0 640 400">
     <rect width="640" height="400" rx="36" fill={color} />
     <rect y="70" width="640" height="70" fill="#0B1220" opacity="0.75" />
@@ -31,7 +31,7 @@ const CreditCard: React.FC<{ width: number; color?: string }> = ({ width, color 
   </svg>
 );
 
-const BankIcon: React.FC<{ width: number }> = ({ width }) => (
+export const BankIcon: React.FC<{ width: number }> = ({ width }) => (
   <svg width={width} viewBox="0 0 200 180">
     <path d="M100 8 L190 62 L10 62 Z" fill="#F5F1E8" />
     {[32, 74, 116, 158].map((x) => (
@@ -41,7 +41,7 @@ const BankIcon: React.FC<{ width: number }> = ({ width }) => (
   </svg>
 );
 
-const StoreIcon: React.FC<{ width: number }> = ({ width }) => (
+export const StoreIcon: React.FC<{ width: number }> = ({ width }) => (
   <svg width={width} viewBox="0 0 200 180">
     <path d="M14 20 H186 L196 70 H4 Z" fill="#EF4444" />
     {[52, 100, 148].map((x) => (
@@ -54,7 +54,7 @@ const StoreIcon: React.FC<{ width: number }> = ({ width }) => (
   </svg>
 );
 
-const PersonIcon: React.FC<{ width: number }> = ({ width }) => (
+export const PersonIcon: React.FC<{ width: number }> = ({ width }) => (
   <svg width={width} viewBox="0 0 100 180">
     <circle cx="50" cy="42" r="32" fill="#F5F1E8" />
     <path d="M5 175 Q5 88 50 88 Q95 88 95 175 Z" fill="#F5F1E8" />
@@ -74,13 +74,13 @@ export const Coin: React.FC<{ width: number }> = ({ width }) => (
   </svg>
 );
 
-const Check: React.FC<{ children: React.ReactNode; size?: number }> = ({ children, size = 64 }) => (
+export const Check: React.FC<{ children: React.ReactNode; size?: number }> = ({ children, size = 64 }) => (
   <div style={{ fontSize: size, fontWeight: 700, lineHeight: 1.2 }}>
     <span style={{ color: C.green }}>✓</span> {children}
   </div>
 );
 
-const Chips: React.FC<{ items: string[]; at: number; step?: number; color?: string }> = ({ items, at, step = 10, color }) => (
+export const Chips: React.FC<{ items: string[]; at: number; step?: number; color?: string }> = ({ items, at, step = 10, color }) => (
   <div style={{ display: "flex", flexWrap: "wrap", gap: 24, justifyContent: "center" }}>
     {items.map((s, i) => (
       <Reveal key={s} at={at + i * step}>
@@ -92,7 +92,7 @@ const Chips: React.FC<{ items: string[]; at: number; step?: number; color?: stri
   </div>
 );
 
-const HBar: React.FC<{ at: number; label: string; value: string; width: number; color: string }> = ({
+export const HBar: React.FC<{ at: number; label: string; value: string; width: number; color: string }> = ({
   at,
   label,
   value,
@@ -112,7 +112,7 @@ const HBar: React.FC<{ at: number; label: string; value: string; width: number; 
   );
 };
 
-const Strike: React.FC<{ at: number; children: React.ReactNode }> = ({ at, children }) => {
+export const Strike: React.FC<{ at: number; children: React.ReactNode }> = ({ at, children }) => {
   const frame = useCurrentFrame();
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
@@ -196,7 +196,7 @@ export const Hook: React.FC<SceneProps> = ({ t, e, dur }) => {
 };
 
 /* 1. Origin */
-const Year: React.FC<{ year: string; children: React.ReactNode }> = ({ year, children }) => (
+export const Year: React.FC<{ year: string; children: React.ReactNode }> = ({ year, children }) => (
   <div style={{ display: "flex", alignItems: "center", gap: 80, textAlign: "left" }}>
     <div style={{ fontSize: 260, fontWeight: 900, letterSpacing: -10, color: C.yellow, lineHeight: 1 }}>{year}</div>
     <div style={{ width: 860 }}>{children}</div>
@@ -836,7 +836,7 @@ export const Pitch: React.FC<SceneProps> = ({ t, e, dur }) => (
 );
 
 /* 12. Collateral */
-const VBar: React.FC<{ at: number; h: number; value: string; label: string; color: string }> = ({ at, h, value, label, color }) => {
+export const VBar: React.FC<{ at: number; h: number; value: string; label: string; color: string }> = ({ at, h, value, label, color }) => {
   const frame = useCurrentFrame();
   const p = prog(frame, at, 34);
   return (
@@ -898,7 +898,7 @@ export const Collateral: React.FC<SceneProps> = ({ t, e, dur }) => {
 };
 
 /* 13. Catch */
-const Item: React.FC<{ n: number; children: React.ReactNode }> = ({ n, children }) => (
+export const Item: React.FC<{ n: number; children: React.ReactNode }> = ({ n, children }) => (
   <div
     style={{
       display: "flex",
