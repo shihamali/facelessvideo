@@ -42,7 +42,7 @@ const Box: React.FC<{ title: string; sub: string; color?: string; fill?: number;
 /* 0. Hook */
 export const Hook: React.FC<SceneProps> = ({ t, e, dur }) => {
   const frame = useCurrentFrame();
-  const drop = interpolate(frame, [t[1] + 4, e[1]], [32, 0], clamp);
+  const drop = interpolate(frame, [t[1] + 4, t[1] + (e[1] - t[1]) * 0.65], [32, 0], clamp);
   const dim = 1 - 0.9 * prog(frame, t[3], 20);
   return (
     <Shell dur={dur}>
@@ -53,7 +53,7 @@ export const Hook: React.FC<SceneProps> = ({ t, e, dur }) => {
               {frame >= t[1] ? `November ${Math.min(11, 2 + Math.round(((32 - drop) / 32) * 9))}, 2022` : "November 2, 2022"}
             </Sub>
             <div style={{ fontSize: 300, fontWeight: 900, letterSpacing: -10, lineHeight: 1.05, color: drop < 1 ? C.red : C.text, fontVariantNumeric: "tabular-nums" }}>
-              ${Math.round(drop)}B
+              {drop < 1 ? "$0" : "$" + Math.round(drop) + "B"}
             </div>
             <Sub size={56}>{drop < 1 ? "Bankrupt." : "what investors said FTX was worth"}</Sub>
           </Reveal>
@@ -340,10 +340,10 @@ export const TokenScene: React.FC<SceneProps> = ({ t, e, dur }) => {
           <Reveal at={t[2] + 6} out={t[3] - 8}>
             <Sub size={50}>Alameda's assets, on paper</Sub>
             <div style={{ display: "flex", height: 130, borderRadius: 18, overflow: "hidden", marginTop: 20, width: 1040 * Math.max(0.03, prog(frame, t[2] + 14, 40)) }}>
-              <div style={{ flex: "0 0 560px", background: C.blue, display: "flex", alignItems: "center", paddingLeft: 30, fontSize: 48, fontWeight: 800, color: C.bg, whiteSpace: "nowrap" }}>
+              <div style={{ flex: "0 0 640px", background: C.blue, display: "flex", alignItems: "center", paddingLeft: 30, fontSize: 48, fontWeight: 800, color: C.bg, whiteSpace: "nowrap" }}>
                 FTT and related tokens
               </div>
-              <div style={{ flex: "0 0 480px", background: C.line }} />
+              <div style={{ flex: "0 0 400px", background: C.line }} />
             </div>
             <Sub size={34} style={{ marginTop: 14 }}>
               Proportions illustrative
@@ -382,7 +382,7 @@ const DAYS = [2, 6, 8, 9, 11];
 // Which timeline marker is active on each beat
 const ACTIVE = [0, 1, 1, 1, 1, 3, 4, 4];
 
-export const Collapse: React.FC<SceneProps> = ({ t, e, dur }) => {
+export const Collapse: React.FC<SceneProps> = ({ t, dur }) => {
   const frame = useCurrentFrame();
   let beat = 0;
   for (let i = 0; i < t.length; i++) if (frame >= t[i]) beat = i;
@@ -398,7 +398,7 @@ export const Collapse: React.FC<SceneProps> = ({ t, e, dur }) => {
     <>
       <Sub size={50}>The head of Binance, FTX's biggest rival</Sub>
       <Headline size={84} style={{ marginTop: 16 }}>
-        “We will sell our FTT”: more than <span style={{ color: C.red }}>$500 million</span>
+        Binance will sell its FTT: more than <span style={{ color: C.red }}>$500 million</span>
       </Headline>
     </>,
     <>
@@ -504,7 +504,7 @@ export const Trial: React.FC<SceneProps> = ({ t, e, dur }) => (
       <Reveal at={t[3] + 6} out={t[4] - 8}>
         <Pill color={C.red} style={{ width: 760 }}>
           <Sub size={48}>The jury's verdict</Sub>
-          <div style={{ fontSize: 130, fontWeight: 900, color: C.red }}>Guilty, 7 of 7</div>
+          <div style={{ fontSize: 108, fontWeight: 900, color: C.red, whiteSpace: "nowrap", lineHeight: 1.45 }}>Guilty, 7 of 7</div>
           <Sub size={44}>after a few hours of deliberation</Sub>
         </Pill>
       </Reveal>
