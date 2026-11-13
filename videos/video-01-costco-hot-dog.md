@@ -21,6 +21,8 @@ Costco has sold its hot dog and soda for $1.50 since 1985 and loses money on it.
 
 ## Script
 
+This is the first draft. The narration as recorded for the rendered video is in `tools/beats.json`; it differs slightly in wording and drops the mid-roll markers.
+
 `[F#]` marks a figure to verify before recording. The list is at the end.
 
 ### Section 0: Hook (0:00–0:20)
